@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+
+//Compiler version gcc  6.3.0
+
+int main()
+{
+  char StudentName[]="Ann";
+  char SchoolName[]="IJEMS";
+  int Age=10;
+  int Class=5;
+  int Marks=85;
+  printf ("%s\n",StudentName);
+  printf("%s\n",SchoolName);
+  printf("%d.\n",Age);
+  printf("%d.\n", Class);
+  printf("%d.\n",Marks);
+  return 0;
+}
