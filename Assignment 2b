@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int main()
+{
+  printf("The name of my pet dog is %s.\n","Tobby");
+printf("He is %d years old .\n",3);
+printf("His favourite foods are %s.","Cooked fish and chicken"); 
+ return 0;
+}
