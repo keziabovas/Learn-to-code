@@ -1,0 +1,10 @@
+int main()
+{
+   int n;
+   printf("Enter the number : \n");
+   scanf("%d",&n);
+   do{
+        printf("%d",n);
+        --n;
+    }while(n>0);
+}
