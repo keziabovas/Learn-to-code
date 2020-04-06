@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int main()
+{
+  double x;
+  printf("Enter basic salary:");
+  scanf("%lf",&x);
+  double da=(0.1*x);
+  double ta =(0.12*x);
+  printf("Total salary is %f+%f+%f=%f",x,da,ta,(x+da+ta));
+  return 0;
+}
