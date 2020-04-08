@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include<string.h>
+#include <conio.h>
+
+//Compiler version gcc  6.3.0
+
+int main()
+{
+char str[100];
+int v=0;
+int l;
+int i;
+printf(" Enter the string \n");
+gets(str);
+l= strlen(str);
+for(i=0; i<l ;i++)
+{
+  if (str[i]=='a'|| str[i]=='e'||  str[i]=='i'||   
+    str[i]=='o'|| str[i]=='u')
+             
+ v= v+1;
+}
+printf("vowels:%d",v);
+return 0;
+}
