@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+  int l;
+  int i,dig,alpha,spch;
+  dig= alpha =spch =i;
+  char str [100];
+  printf("Enter the string :\n");
+  gets(str);
+  l = strlen(str);
+  for (i=0;i<l;i++)
+  {
+    
+  if((str[i] >='a' && str[i]<='z')||(str[i]>='A' && str[i]<='Z'))
+  alpha++;
+  else if (str[i]>='0' && str[i]<='9')
+  dig++;
+  else 
+  spch++;
+  }
+  printf("Number of alphabets:%d\n",alpha);
+  printf("Number of digits:%d\n",dig);
+  printf("Number of special characters:%d\n",spch);
+  
+  return 0;
+  }
