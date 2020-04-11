@@ -1,3 +1,5 @@
+
+#include<stdio.h>
 int main()
 {
    int n;
@@ -8,3 +10,11 @@ int main()
         --n;
     }while(n>0);
 }
+   
+   
+   
+   
+        
+     
+    
+
