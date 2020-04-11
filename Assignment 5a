@@ -9,9 +9,9 @@ int main()
   int b=50;
   printf("Enter your age:");
   scanf("%d",&age);
-  if (age>=a)
+  if (age>=60)
   printf("Pension amount is Rs %d",10000);
-  if (age>=50)
+  else if (age>=50)
   printf("Pension amount is Rs %d",5000);
   else
   printf("Pension amount is Rs %d",0);
