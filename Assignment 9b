@@ -3,7 +3,7 @@
 int main()
 {
   int l;
-  int i,dig,alpha,spch;
+  int i=0,dig,alpha,spch;
   dig= alpha =spch =i;
   char str [100];
   printf("Enter the string :\n");
