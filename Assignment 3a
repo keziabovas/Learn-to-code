@@ -2,6 +2,11 @@
 
 //Compiler version gcc  6.3.0
 
+
+  #include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
 int main()
 {
   char Name[20];
@@ -11,9 +16,19 @@ int main()
   double S4;
   double S5;
   printf("Enter your name:");
-  scanf("%s",Name);
+  scanf("%s",&Name);
   printf("Enter marks of 5 subjects:");
-  scanf("%lf,%lf,%lf,%lf,%lf",&S1,&S2,&S3,&S4,&S5);
+  scanf("%lf%lf%lf%lf%lf",&S1,&S2,&S3,&S4,&S5);
   printf("Average:%f",(S1+S2+S3+S4+S5)/5);
   return 0;
 }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
