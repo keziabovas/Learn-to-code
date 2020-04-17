@@ -1,0 +1,37 @@
+#include <stdio.h>
+int main()
+{
+  
+int even=0, odd=0;
+int a[10][10];
+int r,c,i,j;
+int flag =0;
+printf("Enter the number of rows and columns:\n");
+scanf("%d%d",&r,&c);
+printf("Enter the elements of matrix:\n");
+for(i=0;i<r;i++)
+{
+  for(j=0;j<c;j++)
+  {
+    scanf("%d",&a[i][j]);
+    
+  }
+}
+for(i=0;i<r;i++)
+{
+  for(j=0;j<c;j++)
+  {
+    if(a[i][j]%2 ==0)
+    {
+      even++;
+    }
+    else
+    {
+      odd++;
+    }
+  }
+}
+printf("The frequency of occurance of odd number is %d\ n",odd);
+printf("The frequency of occurance of even number is %d\n",even);
+return 0;
+}
